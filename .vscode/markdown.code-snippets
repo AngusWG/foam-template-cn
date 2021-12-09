@@ -1,0 +1,217 @@
+{
+  // Place your WG workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+  // Placeholders with the same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"scope": "javascript,typescript",
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+  // 输入header插入自定义header
+  "header tag": {
+    "scope": "markdown",
+    "prefix": "header",
+    "body": ["---", "tags: $0", "---"]
+  },
+  // 输入 task 插入待办事项
+  "Insert task list": {
+    "prefix": "task",
+    "body": ["- [${1| ,x|}] ${2:text}", "${0}"],
+    "description": "Insert task list"
+  },
+  "Insert task list 2": {
+    "prefix": "task2",
+    "body": ["- [${1| ,x|}] ${2:text}", "- [${3| ,x|}] ${4:text}", "${0}"],
+    "description": "Insert task list with 2 tasks"
+  },
+  "Insert task list 3": {
+    "prefix": "task3",
+    "body": [
+      "- [${1| ,x|}] ${2:text}",
+      "- [${3| ,x|}] ${4:text}",
+      "- [${5| ,x|}] ${6:text}",
+      "${0}"
+    ],
+    "description": "Insert task list with 3 tasks"
+  },
+  "Insert task list 4": {
+    "prefix": "task4",
+    "body": [
+      "- [${1| ,x|}] ${2:text}",
+      "- [${3| ,x|}] ${4:text}",
+      "- [${5| ,x|}] ${6:text}",
+      "- [${7| ,x|}] ${8:text}",
+      "${0}"
+    ],
+    "description": "Insert task list with 4 tasks"
+  },
+  "Insert task list 5": {
+    "prefix": "task5",
+    "body": [
+      "- [${1| ,x|}] ${2:text}",
+      "- [${3| ,x|}] ${4:text}",
+      "- [${5| ,x|}] ${6:text}",
+      "- [${7| ,x|}] ${8:text}",
+      "- [${9| ,x|}] ${10:text}",
+      "${0}"
+    ],
+    "description": "Insert task list with 5 tasks"
+  },
+  // 输入 table 插入表格
+  "Insert table": {
+    "prefix": "table",
+    "body": [
+      "| ${1:Column1}  | ${2:Column2}   | ${3:Column3}   |",
+      "|-------------- | -------------- | -------------- |",
+      "| ${4:Item1}    | ${5:Item1}     | ${6:Item1}     |",
+      "${0}"
+    ],
+    "description": "Insert table with 2 rows and 3 columns. First row is heading."
+  },
+  "Insert 2x1 table": {
+    "prefix": "2x1table",
+    "body": [
+      "| ${1:Column1}  |",
+      "|-------------- |",
+      "| ${2:Item1}    |",
+      "${0}"
+    ],
+    "description": "Insert table with 2 rows and 1 column. First row is heading."
+  },
+  "Insert 3x1 table": {
+    "prefix": "3x1table",
+    "body": [
+      "| ${1:Column1}  |",
+      "|-------------- |",
+      "| ${2:Item1}    |",
+      "| ${3:Item2}    |",
+      "${0}"
+    ],
+    "description": "Insert table with 3 rows and 1 column. First row is heading."
+  },
+  "Insert 4x1 table": {
+    "prefix": "4x1table",
+    "body": [
+      "| ${1:Column1}  |",
+      "|-------------- |",
+      "| ${2:Item1}    |",
+      "| ${3:Item2}    |",
+      "| ${4:Item3}    |",
+      "${0}"
+    ],
+    "description": "Insert table with 4 rows and 1 column. First row is heading."
+  },
+  "Insert 5x1 table": {
+    "prefix": "5x1table",
+    "body": [
+      "| ${1:Column1}  |",
+      "|-------------- |",
+      "| ${2:Item1}    |",
+      "| ${3:Item2}    |",
+      "| ${4:Item3}    |",
+      "| ${5:Item4}    |",
+      "${0}"
+    ],
+    "description": "Insert table with 5 rows and 1 column. First row is heading."
+  },
+  "Insert 2x2 table": {
+    "prefix": "2x2table",
+    "body": [
+      "| ${1:Column1}   | ${2:Column2}    |",
+      "|--------------- | --------------- |",
+      "| ${3:Item1.1}   | ${4:Item2.1}   |",
+      "${0}"
+    ],
+    "description": "Insert table with 2 rows and 2 columns. First row is heading."
+  },
+  "Insert 3x2 table": {
+    "prefix": "3x2table",
+    "body": [
+      "| ${1:Column1}   | ${2:Column2}    |",
+      "|--------------- | --------------- |",
+      "| ${3:Item1.1}   | ${4:Item2.1}   |",
+      "| ${5:Item1.2}   | ${6:Item2.2}   |",
+      "${0}"
+    ],
+    "description": "Insert table with 3 rows and 2 columns. First row is heading."
+  },
+  "Insert 4x2 table": {
+    "prefix": "4x2table",
+    "body": [
+      "| ${1:Column1}   | ${2:Column2}    |",
+      "|--------------- | --------------- |",
+      "| ${3:Item1.1}   | ${4:Item2.1}   |",
+      "| ${5:Item1.2}   | ${6:Item2.2}   |",
+      "| ${7:Item1.3}   | ${8:Item2.3}   |",
+      "${0}"
+    ],
+    "description": "Insert table with 4 rows and 2 columns. First row is heading."
+  },
+  "Insert 5x2 table": {
+    "prefix": "5x2table",
+    "body": [
+      "| ${1:Column1}   | ${2:Column2}    |",
+      "|--------------- | --------------- |",
+      "| ${3:Item1.1}   | ${4:Item2.1}   |",
+      "| ${5:Item1.2}   | ${6:Item2.2}   |",
+      "| ${7:Item1.3}   | ${8:Item2.3}   |",
+      "| ${9:Item1.4}   | ${10:Item2.4}   |",
+      "${0}"
+    ],
+    "description": "Insert table with 5 rows and 2 columns. First row is heading."
+  },
+  "Insert 2x3 table": {
+    "prefix": "2x3table",
+    "body": [
+      "| ${1:Column1}    | ${2:Column2}    | ${3:Column3}    |",
+      "|---------------- | --------------- | --------------- |",
+      "| ${4:Item1.1}    | ${5:Item2.1}    | ${6:Item3.1}    |",
+      "${0}"
+    ],
+    "description": "Insert table with 2 rows and 3 columns. First row is heading."
+  },
+  "Insert 3x3 table": {
+    "prefix": "3x3table",
+    "body": [
+      "| ${1:Column1}    | ${2:Column2}    | ${3:Column3}    |",
+      "|---------------- | --------------- | --------------- |",
+      "| ${4:Item1.1}    | ${5:Item2.1}    | ${6:Item3.1}    |",
+      "| ${7:Item1.2}    | ${8:Item2.2}    | ${9:Item3.2}    |",
+      "${0}"
+    ],
+    "description": "Insert table with 3 rows and 3 columns. First row is heading."
+  },
+  "Insert 4x3 table": {
+    "prefix": "4x3table",
+    "body": [
+      "| ${1:Column1}    | ${2:Column2}    | ${3:Column3}    |",
+      "|---------------- | --------------- | --------------- |",
+      "| ${4:Item1.1}    | ${5:Item2.1}    | ${6:Item3.1}    |",
+      "| ${7:Item1.2}    | ${8:Item2.2}    | ${9:Item3.2}    |",
+      "| ${10:Item1.3}   | ${11:Item2.3}   | ${12:Item3.3}   |",
+      "${0}"
+    ],
+    "description": "Insert table with 4 rows and 3 columns. First row is heading."
+  },
+  "Insert 5x3 table": {
+    "prefix": "5x3table",
+    "body": [
+      "| ${1:Column1}    | ${2:Column2}    | ${3:Column3}    |",
+      "|---------------- | --------------- | --------------- |",
+      "| ${4:Item1.1}    | ${5:Item2.1}    | ${6:Item3.1}    |",
+      "| ${7:Item1.2}    | ${8:Item2.2}    | ${9:Item3.2}    |",
+      "| ${10:Item1.3}   | ${11:Item2.3}   | ${12:Item3.3}   |",
+      "| ${13:Item1.4}   | ${14:Item2.4}   | ${15:Item3.4}   |",
+      "${0}"
+    ],
+    "description": "Insert table with 5 rows and 3 columns. First row is heading."
+  }
+}
