@@ -12,7 +12,7 @@
 本文档假设你有一个GitHub账户，并且在你的 Linux / MacOS / Windows 机器上安装了 [Visual Studio Code](https://code.visualstudio.com/)。
 
 1. 如果你想详细了解foam，请浏览一下[Foam文档](https://foambubble.github.io/foam)。
-2. 在[foam-template](https://github.com/foambubble/foam-template/generate)(就是本项目)项目上按"Use this template"按钮，复制到你的github帐号中。如果你想保密你的笔记，请设置项目为私有项目(private)。
+2. 在[foam-template](https://github.com/AngusWG/foam-template-cn)(就是本项目)项目上按"Use this template"按钮，复制到你的github帐号中。如果你想保密你的笔记，请设置项目为私有项目(private)。
 3. [克隆(clone)](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)这个项目到你的电脑本地，并用 VS Code 打开它。
 
     *使用`File > Open...` 用文件夹(folder)的方式打开它。*
