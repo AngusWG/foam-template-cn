@@ -24,7 +24,8 @@
 系统学习**Foam**, 请阅读[Recipes](https://foambubble.github.io/foam/recipes/recipes)文档。
 
 请记住，你可以随时加入我们的[Foam Discord社区](https://foambubble.github.io/join-discord/g)!
-Foam-vscode笔记QQ群:610013037
+
+中文小伙伴看这里:Foam-vscode笔记QQ群:610013037
 
 ## 使用笔记系统
 
