@@ -1,0 +1,17 @@
+{
+  // MD025/single-title/single-h1 - Multiple top-level headings in the same document
+  // 第一行必须为一级标题
+  "MD025": false,
+  // MD045/no-alt-text - Images should have alternate text (alt text)
+  // 允许图片无名称
+  "MD045": false,
+  // MD033/no-inline-html - Inline HTML
+  // 包含html
+  "MD033": false,
+  // MD013/line-length - Line length
+  // 限制每行长度
+  "MD013": false,
+  // MD034/no-bare-urls - Bare URL used
+  // url必须有尖括号包裹的限制
+  "MD034": false
+}
