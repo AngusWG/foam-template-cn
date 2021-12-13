@@ -20,6 +20,9 @@
     "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
 
     // 笔记自动同步插件
-    "JSShou.note-sync"
+    "JSShou.note-sync",
+
+    // git 漂亮的提交历史查看工具
+    "mhutchie.git-graph"
   ]
 }
