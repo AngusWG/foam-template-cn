@@ -23,6 +23,9 @@
     "JSShou.note-sync",
 
     // git 漂亮的提交历史查看工具
-    "mhutchie.git-graph"
+    "mhutchie.git-graph",
+
+    // 思维导图 命令行输入`View Mind Map`查看
+    "josephcz.vscode-markdown-mindmap-preview"
   ]
 }
