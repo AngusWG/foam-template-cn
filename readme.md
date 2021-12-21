@@ -6,6 +6,7 @@
 
 - 使用`vscode`和`Foam`构建你的`第二大脑`
 - 原文来自 [foam-template](https://github.com/foambubble/foam-template)
+- 本项目相对原有项目，自行增加了一些vscode插件，请在[[更新记录]]查看详情。
 
 ## 开始
 
